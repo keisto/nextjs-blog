@@ -12,10 +12,16 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>
+          Hello there, I'm Tony Keiser, and I'm always learning. Visit my{' '}
+          <a href="//tonykeiser.com" target="_blank" rel="noreferrer">
+            personal site
+          </a>{' '}
+          from time to time to see what I build.
+        </p>
+        <p>
+          (This is a sample website I built - you’ll be building a site like
+          this on <a href="https://nextjs.org/learn">our Next.js tutorial</a>
           .)
         </p>
       </section>
@@ -40,9 +46,6 @@ export default function Home({ allPostsData }) {
   )
 }
 
-// IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT
-// IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT
-
 // In development (npm run dev or yarn dev), getStaticProps runs on every request.
 // In production, getStaticProps runs at build time.
 export async function getStaticProps() {
@@ -53,5 +56,3 @@ export async function getStaticProps() {
     },
   }
 }
-// IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT
-// IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT    IMPORTANT
